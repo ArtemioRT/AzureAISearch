@@ -9,7 +9,7 @@ const credential = new AzureKeyCredential(apiKey);
 const client = new SearchIndexClient(serviceName, indexName, credential);
 
 const indexSchema = {
-    name: indexNames,
+    name: indexName,
     fields: [
         {
             name: "HotelId",
