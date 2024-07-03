@@ -26,7 +26,7 @@ async function(properties, context) {
     // Detalles de Azure Cognitive Search
     const endpoint = "Azure_endpoint";
     const apiKey = "Azure_apiKey";
-    const indexName = "AzureIndex";
+    const indexName = "hotels-vector-quickstar";
 
     // Configurar el cliente de búsqueda
     const client = new SearchClient(endpoint, indexName, new AzureKeyCredential(apiKey));
