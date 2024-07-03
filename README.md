@@ -4,10 +4,10 @@ This project creates a vector search service using Azure AI Search.
 ## Requirements
 
 1. Node.js (latest version recommended)
-2.-Search service:
+2. Search service:
    AzureEndpoint:It is the url of search service
    AzureKey:It is the primary admin key search service
-3.-Group
+3. Group
 
 ### Dependencies
 The project dependencies are listed in the `package.json` file as follows:
